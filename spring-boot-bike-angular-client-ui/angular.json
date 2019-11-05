@@ -13,6 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref" : "/bikedemo-ui/",
+            "deployUrl": "/bikedemo-ui/",
             "outputPath": "dist/bikedemo-ui",
             "index": "src/index.html",
             "main": "src/main.ts",
